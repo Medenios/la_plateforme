@@ -1,13 +1,11 @@
 def triangle(height):
-    offset = height * 2
-    for x in range(height):
-        wide = (x * 2) - 2
-        if x == 0:
-            print((offset - x) * " ", "/\\", sep="")
-        elif x < height - 1:
-            print((offset - x) * " ", "/", wide * " ", "\\", sep="")
+    for i in range(1, height + 1):
+        vide = " " * (height - i)
+        if i < height:
+            wide = " " * (2 * (i - 1))
         else:
-            print((offset - x) * " ", "/", wide * "_", "\\", sep="")
+            wide = "_" * (2 * (i - 1))
+        print(vide + "/" + wide + "\\")
 
 
 triangle(5)
