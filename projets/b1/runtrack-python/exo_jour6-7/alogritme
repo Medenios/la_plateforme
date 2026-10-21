@@ -1,0 +1,7 @@
+début
+    pour i allant de 1 à 10 
+        j'affiche i
+    finpour
+
+    j'affiche "fin de boucle"
+fin
