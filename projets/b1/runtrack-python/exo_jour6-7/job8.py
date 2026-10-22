@@ -3,7 +3,7 @@ L = [8, 24, 27, 48, 2, 16, 9, 102, 7, 84, 91]  # déclaration des listes pour le
 # L = [1, 2, 3, 4]
 
 
-def my_sort(L):  # définition de la fonction my_sort qui un paramètre de type "Liste"
+def my_sort(L):  # définition de la fonction my_sort qui a un paramètre de type "Liste"
     taille = 0  # définition d'une variable pour la liste
     coup = 0  # définition d'une variable pour connaitre le nombre coup
     for loop in L:  # boucle pour connaitre la taille d'une chaine de caracteres

@@ -8,4 +8,5 @@ def triangle(height):
         print(vide + "/" + wide + "\\")
 
 
-triangle(5)
+choix = input("Entrez la hauteur du triangle : ")
+triangle(int(choix))
